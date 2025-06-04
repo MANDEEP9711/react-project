@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      <h1>react project</h1>
-      <p>using react and tailwind</p>
+      <h1 className='bg-green-500 w-30 rounded-sm m-0.5 p-1'>react project</h1>
+      <p className='bg-blue-200'>using react and tailwind</p>
     </>
   )
 }
