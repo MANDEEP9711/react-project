@@ -30,7 +30,7 @@ function App() {
         <p>age: {userobj.age}</p>
         <p>user array: {userarr.map((index) => <span>{index} </span>)}</p>
         <img src={imgel} className='rounded-xl'/>
-        <input type="text" placeholder={name} className='border-1 rounded-sm text-blue-300' />
+        <input type="text" placeholder={name} className='border-1 rounded-sm text-red-1000' />
        </div>
     </>
   )
