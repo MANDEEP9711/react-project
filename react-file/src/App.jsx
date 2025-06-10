@@ -4,11 +4,15 @@ import viteLogo from '/vite.svg'
 import MakeComp from './makecomp'
 import File from './file'
 import './App.css'
+import Checkbox from './checkbox'
+import Radio from './prec/radio'
+import Dropdown from './prec/dropdown'
 
 function App() {
-    return (
+  return (
     <div>
-      <h1>mandeep</h1>
+      <Radio />
+      <Dropdown />
     </div>
   )
 }
